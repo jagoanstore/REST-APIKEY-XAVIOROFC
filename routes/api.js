@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "Rey"
+var creator = "RevDev"
 var neoxr = "yntkts"
 var zeks = "administrator"
 var zeks2 = "apivinz"
@@ -202,7 +202,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey invalid'
+        message: 'apikey invalid hahaha buy dulu;v'
     },
     invalidlink: {
         status: false,
@@ -227,7 +227,7 @@ Akhir Pesan Error
 
 //router.use(favicon(__path + "/views/favicon.ico"));
 
-const listkey = ["apirey", "APIKEY", "ditofficial"];
+const listkey = ["apirevdev", "APIKEY", "revdev"];
 
 router.post("/apikey", async (req, res, next) => {
   const key = req.query.key;
